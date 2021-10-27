@@ -37,10 +37,6 @@ pip3 install simpletransformers
 
 5) Run covid/fix_txt.py to generate covid_cleaned.txt (make sure before running this covid.txt should be the only txt file in the currect directory).
 
-6) Run scripts/parser.ipynb to generate symptoms_ner.csv.
-
-7) Go to /Transformer_NER and uncomment the corresponding model you want to use for NER.
-
 ## Run these commands to perform text augmentation
 1) Once you generate the covid_cleaned.txt file, run the /Pegasus_Augmentation/Pegasus_covid.ipynb file on it and get the augmented csv file.
 
