@@ -20,8 +20,13 @@ inList = []
 c = 0
 
 for item in yourResult:
+
 	c = c+1
-	if c%2==0:
+
+	if c==4:
+		c==1
+	
+	if c%2==0 and c!=0:
 		item[0] = re.sub(r"(\d+)", lambda x: num2words.num2words(int(x.group(0))), item[0])
 		append_item = " ".join(item[0].split())
 		inList.append(append_item.lower())

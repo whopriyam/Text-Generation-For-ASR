@@ -20,7 +20,7 @@ VAR_CHORES = VAR_CHORES.VAR_CHORES;
 export ACTIVITYSENT = ("What were you doing") |
 												("What were you doing there") |
 												("What were you travelling for") |
-												("Why were you roaming outside your house")
+												("Why were you roaming outside your house") |
 												("Why had you gone there") |
 
 												("I had gone to meet my " PEOPLE) |
